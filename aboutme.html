@@ -5,11 +5,6 @@ table, th, td {
   border:1px solid black;
 	
     }
-article {
-    float: left;
-    padding: 20px;
-    width: 75%;
-}
 div {
 
    color: white;
@@ -17,7 +12,7 @@ div {
 
 nav {
     float: left;
-    width: 15%;
+    width: 10%;
     padding: 10px;
     
 }
@@ -31,18 +26,12 @@ font-family: Cooper Black;
 ul {  list-style-type: none;
 	}
 body {
-    background-color: black;
     background-image: url('https://th.bing.com/th/id/R.de11a5d9a94920cfd39cd090bb86d7db?rik=DVpUEywSMpZtDg&riu=http%3a%2f%2fimg.deusm.com%2fdesignnews%2f2016%2f01%2f279335%2fPannam-blog.jpg&ehk=iX%2fLc2qyHFrp6VP2iuF%2bddmtJ%2fYazvCQfw8698nnVpM%3d&risl=&pid=ImgRaw&r=0'); 
-    background-size: cover;
+	background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
-footer{  
-	float: left;
-    width: 35%;
-    padding: 10px;
-	}
 .p1 {
 	font-family: Broadway;
     }
@@ -56,9 +45,28 @@ footer{
 	text-shadow: 3px 3px black;
 }
 .p4{
-	color: green;
     font-family:Cooper Black;
 }
+
+ .content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+ 
+    .content > * {
+      width: calc(90% - 20px); 
+    }
+
+    table {
+      margin-top: 20px; 
+    }
+footer{  
+	float: left;
+    width: 20%;
+    padding: 10px;
+	}
 </style>
 <title>FoC</title>
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -66,13 +74,13 @@ footer{
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
+
 <header>
   <h1 style="color:purple" class="p3"><center><b>Fundamentals of Computing</b></center></h1><br><br>
    <h1 style="color: lightgreen" class="p1"><center>About Me</center></h1>
 </header>
-
-<section>
+<body>
+<div class="content">
   <nav>
 
        <ul><br><br><br><br>
@@ -85,7 +93,7 @@ footer{
     </ul>
   </nav>
 
-
+<section>
 <table style="width:100%">
   <tr>
     <th><center><img src="https://i.pinimg.com/564x/57/80/90/5780909950d97bee0019c0d451ac5f8c.jpg" width="300" height="350"></center></th>
@@ -101,17 +109,18 @@ footer{
     <td class="p2">17 years old first year IT major at the University of Belize. Gradutae of Wesley College.</td>
   </tr>
   <tr>
-    <td class="p4">Click link to visist github page</td>
-    <td class="p4">Click link to visist github page</td>
-    <td class="p4">Click link to visist github page</td>
+    <td class="p4"><a href="https://elizamontoya.github.io/foc/index.html">Click link to visit github page</td>
+    <td class="p4"><a href="https://cesar5655.github.io/foc/index.html">Click link to visit github page</td>
+    <td class="p4"><a href="https://2023159545.github.io/foc-/">Click link to visit github page</td>
   </tr>
-</table><br><br><br>
+</table>
+</div>
 </section>
-
+</body>
 <footer>
-<p style="color:white" class="footer">@ Powered by Group 2</p>
-</body>
+  <p style="color:white">@ Powered by Group 2</p>
 </footer>
-</body>
 </html>
+
+
 
