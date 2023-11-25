@@ -4,12 +4,15 @@ body, h1, h2, p, ul {
     padding: 0;
 }
 
-/* Set a background color for the whole page */
 body {
-    background-color: #f4f4f4;
+    background-image: url('azure.jpg');
+    background-size: cover; /* This ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Center the image */
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
+
 
 /* Style the header */
 header {
