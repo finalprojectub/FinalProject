@@ -4,6 +4,7 @@ body, h1, h2, p, ul {
     padding: 0;
 }
 
+/* Set a background image for the whole page */
 body {
     background-image: url('azure.jpg');
     background-size: cover; /* This ensures the image covers the entire background */
