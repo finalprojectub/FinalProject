@@ -4,11 +4,11 @@ body, h1, h2, p, ul {
     padding: 0;
 }
 
-/* Set a background color for the whole page */
 body {
-    background-color: #f4f4f4;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    background-image: url('https://th.bing.com/th/id/R.de11a5d9a94920cfd39cd090bb86d7db?rik=DVpUEywSMpZtDg&riu=http%3a%2f%2fimg.deusm.com%2fdesignnews%2f2016%2f01%2f279335%2fPannam-blog.jpg&ehk=iX%2fLc2qyHFrp6VP2iuF%2bddmtJ%2fYazvCQfw8698nnVpM%3d&risl=&pid=ImgRaw&r=0'); 
+	background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 /* Style the header */
